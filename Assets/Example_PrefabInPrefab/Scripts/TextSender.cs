@@ -8,6 +8,9 @@ public class TextSender : MonoBehaviour {
 	void Start()
 	{
 		var receiver = GetComponent<TextReceiver>();
-		if(receiver != null) receiver.text = text;
+
+		if(receiver != null) {
+			receiver.text = text;
+		}
 	}
 }
