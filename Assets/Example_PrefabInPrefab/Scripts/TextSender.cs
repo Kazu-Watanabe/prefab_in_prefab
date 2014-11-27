@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 public class TextSender : MonoBehaviour {
-	[SerializeField] string text;
+	[SerializeField] string text = null;
 
 	void Start()
 	{
@@ -11,6 +11,9 @@ public class TextSender : MonoBehaviour {
 
 		if(receiver != null) {
 			receiver.text = text;
+		}
+		else {
+			Debug.LogError("TextReceiver is null.");
 		}
 	}
 }

@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2b30a15871bf4741bdf9607a30f6036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: Line2
+  text: Line1
 --- !u!1 &307034845
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,7 +398,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: 99f6673ff77a54458bdf66e89cd522b1, type: 2}
       propertyPath: text
-      value: Line2
+      value: Line1
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 99f6673ff77a54458bdf66e89cd522b1, type: 2}
       propertyPath: m_LocalPosition.y
@@ -407,6 +407,14 @@ Prefab:
     - target: {fileID: 400004, guid: 99f6673ff77a54458bdf66e89cd522b1, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f6673ff77a54458bdf66e89cd522b1, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 99f6673ff77a54458bdf66e89cd522b1, type: 2}
+      propertyPath: isPreviewInEditor
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 99f6673ff77a54458bdf66e89cd522b1, type: 2}

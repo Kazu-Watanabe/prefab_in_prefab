@@ -25,7 +25,6 @@ public class PrefabInPrefab : MonoBehaviour {
 
 #if UNITY_EDITOR
         if (Application.isPlaying == false) {
-            VirtualPrefabCreater.DrawVirtualPrefab(this);
             return;
         }
 #endif
