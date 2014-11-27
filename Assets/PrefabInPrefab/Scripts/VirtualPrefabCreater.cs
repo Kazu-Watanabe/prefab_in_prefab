@@ -94,7 +94,7 @@ public class VirtualPrefabCreater : MonoBehaviour {
 
     static void CreateVirtualPrefab(PrefabInPrefab prefabInPrefab) {
         
-        prefabInPrefab.DeleteGeneratedPrefab();
+        DeleteVirtualPrefab(prefabInPrefab);
         
         /* Find parent */
         GameObject virtualPrefabRoot = GameObject.Find("PrefabInPrefab_VirtualPrefab");
@@ -125,6 +125,19 @@ public class VirtualPrefabCreater : MonoBehaviour {
         //child.UpdateTransform();
     }
     
+	static void DeleteVirtualPrefab(PrefabInPrefab prefabInPrefab) {
+
+		string instanceName = GetInstanceName(prefabInPrefab);
+
+		foreach(GameObject obj in GameObject.FindGameObjectsWithTag(editorOnlyTag)) {
+			if (obj.name != instanceName) {
+				continue;
+			}
+
+			DestroyImmediate(obj);
+		}
+	}
+
     static void UpdateGameView() {
         
         if (Application.isPlaying) {
