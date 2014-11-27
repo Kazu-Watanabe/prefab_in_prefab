@@ -1,15 +1,19 @@
 
-kyubunsさんが作成されたprefab_in_prefabを、自分用に
-修正したバージョンです。
-ご使用は自己責任にてお願いいたします。
+kyubunsさんが作成されたprefab_in_prefabを、自分用に  
+修正したバージョンです。  
+<https://github.com/kyubuns/prefab_in_prefab>  
+ご使用は自己責任にてお願いいたします。  
 
 
-修正内容
-　・[PrefabInPrefab.cs]内のVirtualPrefab作成処理を[VirtualPrefabCreater.cs]へ移動。
-　・循環参照のチェックを[PrefabInPrefabEditor.cs]へ移動
-　・VirtualPrefabの作成先をPrefabInPrefab_VirtualPrefabへ固定
-　・コーディング規約を自分用に修正
-　・[VirtualPrefab.cs]内で毎フレームTransformの更新をしていて、オブジェクト数が多い場合に重かったので、位置の変化時のみ処理するように条件追加
+修正内容  
+　・[PrefabInPrefab.cs]内のVirtualPrefab作成処理を[VirtualPrefabCreater.cs]へ移動。  
+　・循環参照のチェックを[PrefabInPrefabEditor.cs]へ移動  
+　・VirtualPrefabの作成先をPrefabInPrefab_VirtualPrefabへ固定  
+　・コーディング規約を自分用に修正  
+　・[VirtualPrefab.cs]内で毎フレームTransformの更新をしていて、オブジェクト数が  
+　　多い場合に重かったので、位置の変化時のみ処理するように条件追加  
+　・自分で使用する際に不要な処理をコメント化  
+
 
 ================
 
