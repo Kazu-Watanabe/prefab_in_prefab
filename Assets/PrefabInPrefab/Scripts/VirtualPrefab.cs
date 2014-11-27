@@ -37,7 +37,7 @@ namespace PrefabInPrefabAsset {
                 return;
             }
 
-            if (original.gameObject == null) {
+            if (original == null) {
                 DestroyImmediate(gameObject);
                 return;
             }
