@@ -1,0 +1,12 @@
+
+・OneLineTextGreenをHierarchyから削除
+
+
+
+・HierarchyからOneLineTextGreen.prefabを作成 (D&D)
+
+
+
+・実行を行うとクラッシュ
+
+

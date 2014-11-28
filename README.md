@@ -1,4 +1,7 @@
 
+Unity4.5.3以降でEditorがクラッシュするバグがでてます；；  
+(改善出来ていませんでした。)
+
 kyubunsさんが作成されたprefab_in_prefabを、自分用に  
 修正したバージョンです。  
 <https://github.com/kyubuns/prefab_in_prefab>  

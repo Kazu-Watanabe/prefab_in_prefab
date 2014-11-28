@@ -1,0 +1,736 @@
+
+LICENSE SYSTEM [20141128 11:59:0] No start/stop license dates set
+
+LICENSE SYSTEM [20141128 11:59:0] Next license update check is after 2014-11-28T05:29:30
+
+Built from 'release/4.5/release' branch; Version is '4.5.5f1 (7684ad0c5a44) revision 168641'; Using compiler version '160040219'
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, shouldGiveDebuggerChanceToAttach: 0
+Initialize mono
+Mono path[0] = 'C:/Program Files (x86)/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files (x86)/Unity/Editor/Data/Mono/lib/mono/2.0'
+Mono path[2] = 'C:/Program Files (x86)/Unity/Editor/Data/UnityScript'
+Mono config path = 'C:/Program Files (x86)/Unity/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y
+IsTimeToCheckForNewEditor: Update time 1417144284 current 1417143540
+C:/Users/nao/Desktop/prefab_in_prefab_github
+Loading GUID <-> Path mappings ... 0.001171 seconds.
+Loading Asset Database ...  0.001316 seconds
+AssetDatabase consistency checks ...  0.046078 seconds
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1315]
+    Renderer: AMD Radeon(TM) R7 Graphics
+    Vendor:   ATI
+    VRAM:     1005 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.CJK.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.5.5 for Unity v4.5.5
+Registering custom dll's ...
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/UnityEditor.WP8.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll
+Registered in 0.008912 seconds.
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+System memory in use before: 12.6 MB.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 11.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 292.
+Total: 11.390569 ms (FindLiveObjects: 0.035467 ms CreateObjectMapping: 0.006741 ms MarkObjects: 0.920097 ms  DeleteObjects: 0.093211 ms)
+
+Validating Project structure ... 0.001212 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.005794 seconds (Nothing changed)
+Downloading http://update.unity3d.com/4.5/ivy.xml to C:\Users\nao\AppData\Local\Temp\unity\a0e6bd8d-ca02-4b23-ac01-157bd31df480\ivy.xml
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\nunit.framework.dll (this message is harmless)
+System memory in use before: 14.4 MB.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 12.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 481.
+Total: 10.515612 ms (FindLiveObjects: 0.053640 ms CreateObjectMapping: 0.026673 ms MarkObjects: 2.356083 ms  DeleteObjects: 0.082073 ms)
+
+<RI> Initializing input.
+<RI> Input initialized.
+Native extension for build target not found
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
+Error: Analytics tracking has been disabled because too many server communication errors have occurred
+
+----- Total AssetImport time: 0.201533s, AssetImport time: 0.082398s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+OnWillSaveAssets
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PrefabInPrefabAsset.PrefabObserver:OnWillSaveAssets(String[]) (at Assets\PrefabInPrefab\Editor\PrefabObserver.cs:12)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.AssetModificationProcessorInternal:OnWillSaveAssets(String[], String[]&, String[]&, Int32) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\AssetModificationProcessor.cs:172)
+ 
+(Filename: Assets/PrefabInPrefab/Editor/PrefabObserver.cs Line: 12)
+
+Updating Assets/Example_PrefabInPrefab/Scenes/Example.unity - GUID: 5a9686d525b9045c7889fc11c5e810af...
+ done. [Time: 21.620978 ms] 
+
+----- Total AssetImport time: 0.082779s, AssetImport time: 0.060696s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Updating Assets/Example_PrefabInPrefab/Scenes/Example.unity - GUID: 5a9686d525b9045c7889fc11c5e810af...
+ done. [Time: 15.580693 ms] 
+
+----- Total AssetImport time: 0.105611s, AssetImport time: 0.088987s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.CJK.dll (this message is harmless)
+Registering custom dll's ...
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/UnityEditor.WP8.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll
+Registered in 0.008948 seconds.
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.5.5 for Unity v4.5.5
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\nunit.framework.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+ArgumentException: Path is empty
+  at System.IO.File.CheckPathExceptions (System.String path) [0x0001c] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:510 
+  at System.IO.File.GetLastWriteTime (System.String path) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:281 
+  at VirtualPrefabCreater.GetHashCodeFromPrefab (.PrefabInPrefab prefabInPrefab) [0x00007] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:223 
+  at VirtualPrefabCreater.IsPrefabUpdated (.PrefabInPrefab prefabInPrefab) [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:60 
+  at VirtualPrefabCreater.DrawVirtualPrefab (.PrefabInPrefab prefabInPrefab) [0x00022] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:33 
+  at PrefabInPrefab.OnEnable () [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\PrefabInPrefab.cs:38 
+ 
+(Filename: Assets/PrefabInPrefab/Scripts/VirtualPrefabCreater.cs Line: 223)
+
+ArgumentException: Path is empty
+  at System.IO.File.CheckPathExceptions (System.String path) [0x0001c] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:510 
+  at System.IO.File.GetLastWriteTime (System.String path) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:281 
+  at VirtualPrefabCreater.GetHashCodeFromPrefab (.PrefabInPrefab prefabInPrefab) [0x00007] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:223 
+  at VirtualPrefabCreater.IsPrefabUpdated (.PrefabInPrefab prefabInPrefab) [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:60 
+  at VirtualPrefabCreater.DrawVirtualPrefab (.PrefabInPrefab prefabInPrefab) [0x00022] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:33 
+  at PrefabInPrefab.OnEnable () [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\PrefabInPrefab.cs:38 
+ 
+(Filename: Assets/PrefabInPrefab/Scripts/VirtualPrefabCreater.cs Line: 223)
+
+
+----- Total AssetImport time: 0.025397s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.382 seconds
+ArgumentException: Path is empty
+  at System.IO.File.CheckPathExceptions (System.String path) [0x0001c] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:510 
+  at System.IO.File.GetLastWriteTime (System.String path) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:281 
+  at VirtualPrefabCreater.GetHashCodeFromPrefab (.PrefabInPrefab prefabInPrefab) [0x00007] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:223 
+  at VirtualPrefabCreater.IsPrefabUpdated (.PrefabInPrefab prefabInPrefab) [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:60 
+  at VirtualPrefabCreater.DrawVirtualPrefab (.PrefabInPrefab prefabInPrefab) [0x00022] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:33 
+  at PrefabInPrefab.OnDisable () [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\PrefabInPrefab.cs:42 
+ 
+(Filename: Assets/PrefabInPrefab/Scripts/VirtualPrefabCreater.cs Line: 223)
+
+ArgumentException: Path is empty
+  at System.IO.File.CheckPathExceptions (System.String path) [0x0001c] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:510 
+  at System.IO.File.GetLastWriteTime (System.String path) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:281 
+  at VirtualPrefabCreater.GetHashCodeFromPrefab (.PrefabInPrefab prefabInPrefab) [0x00007] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:223 
+  at VirtualPrefabCreater.IsPrefabUpdated (.PrefabInPrefab prefabInPrefab) [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:60 
+  at VirtualPrefabCreater.DrawVirtualPrefab (.PrefabInPrefab prefabInPrefab) [0x00022] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:33 
+  at PrefabInPrefab.OnDisable () [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\PrefabInPrefab.cs:42 
+ 
+(Filename: Assets/PrefabInPrefab/Scripts/VirtualPrefabCreater.cs Line: 223)
+
+System memory in use before: 22.8 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 21.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 684.
+Total: 10.898131 ms (FindLiveObjects: 0.076796 ms CreateObjectMapping: 0.017293 ms MarkObjects: 2.723067 ms  DeleteObjects: 1.180386 ms)
+
+TextReceiver is null.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+TextSender:Start() (at Assets\Example_PrefabInPrefab\Scripts\TextSender.cs:16)
+ 
+(Filename: Assets/Example_PrefabInPrefab/Scripts/TextSender.cs Line: 16)
+
+TextReceiver is null.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+TextSender:Start() (at Assets\Example_PrefabInPrefab\Scripts\TextSender.cs:16)
+ 
+(Filename: Assets/Example_PrefabInPrefab/Scripts/TextSender.cs Line: 16)
+
+ArgumentException: Path is empty
+  at System.IO.File.CheckPathExceptions (System.String path) [0x0001c] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:510 
+  at System.IO.File.GetLastWriteTime (System.String path) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:281 
+  at VirtualPrefabCreater.GetHashCodeFromPrefab (.PrefabInPrefab prefabInPrefab) [0x00007] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:223 
+  at VirtualPrefabCreater.IsPrefabUpdated (.PrefabInPrefab prefabInPrefab) [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:60 
+  at VirtualPrefabCreater.DrawVirtualPrefab (.PrefabInPrefab prefabInPrefab) [0x00022] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:33 
+  at PrefabInPrefab.OnEnable () [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\PrefabInPrefab.cs:38 
+ 
+(Filename: Assets/PrefabInPrefab/Scripts/VirtualPrefabCreater.cs Line: 223)
+
+ArgumentException: Path is empty
+  at System.IO.File.CheckPathExceptions (System.String path) [0x0001c] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:510 
+  at System.IO.File.GetLastWriteTime (System.String path) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.IO/File.cs:281 
+  at VirtualPrefabCreater.GetHashCodeFromPrefab (.PrefabInPrefab prefabInPrefab) [0x00007] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:223 
+  at VirtualPrefabCreater.IsPrefabUpdated (.PrefabInPrefab prefabInPrefab) [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:60 
+  at VirtualPrefabCreater.DrawVirtualPrefab (.PrefabInPrefab prefabInPrefab) [0x00022] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\VirtualPrefabCreater.cs:33 
+  at PrefabInPrefab.OnEnable () [0x00000] in C:\Users\nao\Desktop\prefab_in_prefab_github\Assets\PrefabInPrefab\Scripts\PrefabInPrefab.cs:38 
+ 
+(Filename: Assets/PrefabInPrefab/Scripts/VirtualPrefabCreater.cs Line: 223)
+
+System memory in use before: 22.7 MB.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 21.6 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 685.
+Total: 12.626062 ms (FindLiveObjects: 0.064192 ms CreateObjectMapping: 0.016121 ms MarkObjects: 3.668666 ms  DeleteObjects: 0.017880 ms)
+
+Updating Assets/Example_PrefabInPrefab/Prefabs/OneLineTextGreen.prefab - GUID: 813392385c5213040a61f6ac0995ff81...
+----- Compute hash for Assets/Example_PrefabInPrefab/Prefabs/OneLineTextGreen.prefab.
+ done. [Time: 27.455201 ms] 
+
+----- Total AssetImport time: 0.187399s, AssetImport time: 0.111695s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets ... 0.002480 seconds
+Updating Assets/Example_PrefabInPrefab/Prefabs/OneLineTextGreen.prefab - GUID: 813392385c5213040a61f6ac0995ff81...
+ done. [Time: 16.442459 ms] 
+
+----- Total AssetImport time: 0.095411s, AssetImport time: 0.078546s, Asset hashing: 0.002808s [420 B, 0.142655 mb/s]
+
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
+PrefabInPrefabEditor - GUI.changed : 6358
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+PrefabInPrefabAsset.PrefabInPrefabEditor:OnInspectorGUI() (at Assets\PrefabInPrefab\Editor\PrefabInPrefabEditor.cs:33)
+UnityEditor.InspectorWindow:DrawEditor(Editor, Int32, Boolean, Boolean&, Rect&, Boolean) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\Inspector\InspectorWindow.cs:1124)
+UnityEditor.InspectorWindow:DrawEditors(Editor[]) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\Inspector\InspectorWindow.cs:938)
+UnityEditor.InspectorWindow:OnGUI() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\Inspector\InspectorWindow.cs:332)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView:Invoke(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:241)
+UnityEditor.HostView:Invoke(String) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:234)
+UnityEditor.DockArea:OnGUI() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:671)
+UnityEditor.GUIView:Internal_SendEvent(Event)
+UnityEditor.GUIView:SendEvent(Event) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\EditorGenerated\EditorWindow.cs:1622)
+UnityEditor.ObjectSelector:SendEvent(String, Boolean) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectSelector.cs:580)
+UnityEditor.ObjectSelector:ItemSelectedCallback(Boolean) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectSelector.cs:154)
+UnityEditor.ObjectListArea:SetSelection(Int32[], Boolean) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListArea.cs:821)
+UnityEditor.LocalGroup:HandleMouseWithoutDragging(Int32, Int32, Rect) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListLocalGroup.cs:422)
+UnityEditor.LocalGroup:DrawItem(Rect, FilterResult, BuiltinResource, Boolean) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListLocalGroup.cs:847)
+UnityEditor.LocalGroup:DrawInternal(Int32, Int32, Single) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListLocalGroup.cs:191)
+UnityEditor.Group:Draw(Single, Vector2) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListGroup.cs:145)
+UnityEditor.ObjectListArea:HandleListArea() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListArea.cs:1377)
+UnityEditor.ObjectListArea:OnGUI(Rect, Int32) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListArea.cs:566)
+UnityEditor.ObjectSelector:GridListArea() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectSelector.cs:671)
+UnityEditor.ObjectSelector:OnGUI() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectSelector.cs:656)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView:Invoke(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:241)
+UnityEditor.HostView:Invoke(String) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:234)
+UnityEditor.HostView:OnGUI() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:126)
+ 
+(Filename: Assets/PrefabInPrefab/Editor/PrefabInPrefabEditor.cs Line: 33)
+
+PrefabInPrefabEditor - GUI.changed : 6392
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+PrefabInPrefabAsset.PrefabInPrefabEditor:OnInspectorGUI() (at Assets\PrefabInPrefab\Editor\PrefabInPrefabEditor.cs:33)
+UnityEditor.InspectorWindow:DrawEditor(Editor, Int32, Boolean, Boolean&, Rect&, Boolean) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\Inspector\InspectorWindow.cs:1124)
+UnityEditor.InspectorWindow:DrawEditors(Editor[]) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\Inspector\InspectorWindow.cs:938)
+UnityEditor.InspectorWindow:OnGUI() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\Inspector\InspectorWindow.cs:332)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView:Invoke(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:241)
+UnityEditor.HostView:Invoke(String) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:234)
+UnityEditor.DockArea:OnGUI() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:671)
+UnityEditor.GUIView:Internal_SendEvent(Event)
+UnityEditor.GUIView:SendEvent(Event) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\EditorGenerated\EditorWindow.cs:1622)
+UnityEditor.ObjectSelector:SendEvent(String, Boolean) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectSelector.cs:580)
+UnityEditor.ObjectSelector:ItemSelectedCallback(Boolean) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectSelector.cs:154)
+UnityEditor.ObjectListArea:SetSelection(Int32[], Boolean) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListArea.cs:821)
+UnityEditor.LocalGroup:HandleMouseWithoutDragging(Int32, Int32, Rect) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListLocalGroup.cs:422)
+UnityEditor.LocalGroup:DrawItem(Rect, FilterResult, BuiltinResource, Boolean) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListLocalGroup.cs:847)
+UnityEditor.LocalGroup:DrawInternal(Int32, Int32, Single) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListLocalGroup.cs:191)
+UnityEditor.Group:Draw(Single, Vector2) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListGroup.cs:145)
+UnityEditor.ObjectListArea:HandleListArea() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListArea.cs:1377)
+UnityEditor.ObjectListArea:OnGUI(Rect, Int32) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectListArea.cs:566)
+UnityEditor.ObjectSelector:GridListArea() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectSelector.cs:671)
+UnityEditor.ObjectSelector:OnGUI() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\ObjectSelector.cs:656)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView:Invoke(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:241)
+UnityEditor.HostView:Invoke(String) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:234)
+UnityEditor.HostView:OnGUI() (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\GUI\DockArea.cs:126)
+ 
+(Filename: Assets/PrefabInPrefab/Editor/PrefabInPrefabEditor.cs Line: 33)
+
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.CJK.dll (this message is harmless)
+Registering custom dll's ...
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/UnityEditor.WP8.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll
+Registered in 0.013106 seconds.
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.5.5 for Unity v4.5.5
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\nunit.framework.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+
+----- Total AssetImport time: 0.026521s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+System memory in use before: 23.0 MB.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 21.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 749.
+Total: 11.057294 ms (FindLiveObjects: 0.103177 ms CreateObjectMapping: 0.026673 ms MarkObjects: 2.870212 ms  DeleteObjects: 0.136593 ms)
+
+System memory in use before: 21.8 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 21.8 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 721.
+Total: 4.420514 ms (FindLiveObjects: 0.069762 ms CreateObjectMapping: 0.017000 ms MarkObjects: 3.111448 ms  DeleteObjects: 0.009966 ms)
+
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.CJK.dll (this message is harmless)
+Registering custom dll's ...
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/UnityEditor.WP8.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll
+Registered in 0.010600 seconds.
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.5.5 for Unity v4.5.5
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\nunit.framework.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+
+----- Total AssetImport time: 0.021995s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+System memory in use before: 22.0 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 21.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 749.
+Total: 7.985709 ms (FindLiveObjects: 0.076503 ms CreateObjectMapping: 0.011724 ms MarkObjects: 4.758186 ms  DeleteObjects: 0.117833 ms)
+
+System memory in use before: 22.0 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 22.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 722.
+Total: 7.622829 ms (FindLiveObjects: 0.063606 ms CreateObjectMapping: 0.016121 ms MarkObjects: 4.093101 ms  DeleteObjects: 0.016121 ms)
+
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.CJK.dll (this message is harmless)
+Registering custom dll's ...
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/UnityEditor.WP8.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll
+Registered in 0.007399 seconds.
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.5.5 for Unity v4.5.5
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\nunit.framework.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+
+----- Total AssetImport time: 0.021674s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.190 seconds
+System memory in use before: 22.1 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 22.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 750.
+Total: 7.099027 ms (FindLiveObjects: 0.095263 ms CreateObjectMapping: 0.017000 ms MarkObjects: 3.222247 ms  DeleteObjects: 0.081193 ms)
+
+System memory in use before: 22.1 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 22.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 723.
+Total: 4.360718 ms (FindLiveObjects: 0.067710 ms CreateObjectMapping: 0.016121 ms MarkObjects: 3.057515 ms  DeleteObjects: 0.014655 ms)
+
+OnWillSaveAssets
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PrefabInPrefabAsset.PrefabObserver:OnWillSaveAssets(String[]) (at Assets\PrefabInPrefab\Editor\PrefabObserver.cs:12)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.AssetModificationProcessorInternal:OnWillSaveAssets(String[], String[]&, String[]&, Int32) (at C:\BuildAgent\work\d63dfc6385190b60\Editor\Mono\AssetModificationProcessor.cs:172)
+ 
+(Filename: Assets/PrefabInPrefab/Editor/PrefabObserver.cs Line: 12)
+
+
+Hashing assets ... 0.000852 seconds
+Updating Assets/Example_PrefabInPrefab/Scenes/Example.unity - GUID: 5a9686d525b9045c7889fc11c5e810af...
+ done. [Time: 39.218031 ms] 
+Updating Assets/Example_PrefabInPrefab/Prefabs/OneLineTextGreen.prefab - GUID: 813392385c5213040a61f6ac0995ff81...
+ done. [Time: 26.007785 ms] 
+
+----- Total AssetImport time: 0.130188s, AssetImport time: 0.102799s, Asset hashing: 0.001084s [2.5 KB, 2.263761 mb/s]
+
+Updating Assets/Example_PrefabInPrefab/Scenes/Example.unity - GUID: 5a9686d525b9045c7889fc11c5e810af...
+ done. [Time: 21.998513 ms] 
+
+----- Total AssetImport time: 0.110905s, AssetImport time: 0.095866s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.CJK.dll (this message is harmless)
+Registering custom dll's ...
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/UnityEditor.WP8.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll
+Registered in 0.008917 seconds.
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading C:\Users\nao\Desktop\prefab_in_prefab_github\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.5.5\Unity.PackageManager.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.5.5 for Unity v4.5.5
+ReleaseAllScriptCaches did not release all script caches!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Mono/MonoManager.cpp Line: 1351)
+
+Remaining caches:
+    Assembly-CSharp:PrefabInPrefabAsset:VirtualPrefab
+    Assembly-CSharp::TextReceiver
+    Assembly-CSharp::TextSender
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Program Files (x86)/Unity/Editor/Data/MonoEmbedRuntime;.;C:\Users\nao\Desktop\prefab_in_prefab_github;C:\Program Files (x86)\Unity\Editor;C:\windows;C:\windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'nao'
+OS-Version: 6.2.9200 () 0x300-0x1
+C:\Program Files (x86)\Unity\Editor\Unity.exe:Unity.exe (00400000), size: 31281152 (result: 0), SymType: 'PDB', PDB: 'C:\Program Files (x86)\Unity\Editor\Unity.exe', fileVersion: 4.5.5.37569
+C:\windows\SYSTEM32\ntdll.dll:ntdll.dll (77790000), size: 1470464 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\ntdll.dll', fileVersion: 6.3.9600.17278
+C:\windows\SYSTEM32\KERNEL32.DLL:KERNEL32.DLL (751D0000), size: 1310720 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\KERNEL32.DLL', fileVersion: 6.3.9600.17056
+C:\windows\SYSTEM32\KERNELBASE.dll:KERNELBASE.dll (77310000), size: 851968 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\KERNELBASE.dll', fileVersion: 6.3.9600.17278
+C:\Program Files (x86)\Unity\Editor\beast32.dll:beast32.dll (10000000), size: 1839104 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\beast32.dll', fileVersion: 1.0.48276.0
+C:\Program Files (x86)\Unity\Editor\FreeImage.dll:FreeImage.dll (023E0000), size: 2260992 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\FreeImage.dll', fileVersion: 3.11.0.0
+C:\Program Files (x86)\Unity\Editor\libmp3lame.DLL:libmp3lame.DLL (69870000), size: 589824 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\libmp3lame.DLL', fileVersion: 3.98.2.4
+C:\windows\SYSTEM32\ole32.dll:ole32.dll (75420000), size: 1097728 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\ole32.dll', fileVersion: 6.3.9600.17042
+C:\windows\SYSTEM32\WS2_32.dll:WS2_32.dll (772C0000), size: 315392 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\WS2_32.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\HID.DLL:HID.DLL (69860000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\HID.DLL', fileVersion: 6.3.9600.16384
+C:\Program Files (x86)\Unity\Editor\umbraoptimizer32.dll:umbraoptimizer32.dll (697A0000), size: 761856 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\umbraoptimizer32.dll'
+C:\windows\SYSTEM32\COMDLG32.dll:COMDLG32.dll (755A0000), size: 565248 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\COMDLG32.dll', fileVersion: 6.3.9600.17238
+C:\windows\SYSTEM32\USER32.dll:USER32.dll (77410000), size: 1359872 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\USER32.dll', fileVersion: 6.3.9600.17344
+C:\windows\SYSTEM32\GDI32.dll:GDI32.dll (75310000), size: 1077248 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\GDI32.dll', fileVersion: 6.3.9600.17246
+C:\windows\SYSTEM32\ADVAPI32.dll:ADVAPI32.dll (77240000), size: 491520 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\ADVAPI32.dll', fileVersion: 6.3.9600.17031
+C:\windows\SYSTEM32\CRYPT32.dll:CRYPT32.dll (76F70000), size: 1568768 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\CRYPT32.dll', fileVersion: 6.3.9600.16431
+C:\windows\SYSTEM32\SHELL32.dll:SHELL32.dll (758F0000), size: 18575360 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\SHELL32.dll', fileVersion: 6.3.9600.17331
+C:\windows\SYSTEM32\SHLWAPI.dll:SHLWAPI.dll (76EA0000), size: 266240 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\SHLWAPI.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\VERSION.dll:VERSION.dll (74FE0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\VERSION.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (696C0000), size: 868352 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\OPENGL32.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\WINMM.dll:WINMM.dll (74B50000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\WINMM.dll', fileVersion: 6.3.9600.17078
+C:\Program Files (x86)\Unity\Editor\LIBPQ.dll:LIBPQ.dll (002C0000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\LIBPQ.dll', fileVersion: 8.3.1.8075
+C:\windows\SYSTEM32\OLEAUT32.dll:OLEAUT32.dll (76AC0000), size: 610304 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\OLEAUT32.dll', fileVersion: 6.3.9600.17403
+C:\windows\SYSTEM32\PSAPI.DLL:PSAPI.DLL (76D90000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\PSAPI.DLL', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\MSACM32.dll:MSACM32.dll (696A0000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\MSACM32.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\IMM32.dll:IMM32.dll (773E0000), size: 151552 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\IMM32.dll', fileVersion: 6.3.9600.17031
+C:\windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (72FE0000), size: 122880 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.3.9600.16384
+C:\Program Files (x86)\Unity\Editor\WebKit.dll:WebKit.dll (65180000), size: 22495232 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\WebKit.dll', fileVersion: 5.33.0.0
+C:\Program Files (x86)\Unity\Editor\JavaScriptCore.dll:JavaScriptCore.dll (64260000), size: 15826944 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\JavaScriptCore.dll', fileVersion: 5.33.0.0
+C:\windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (6E1E0000), size: 507904 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\DNSAPI.dll', fileVersion: 6.3.9600.17039
+C:\windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (72A50000), size: 606208 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\WINHTTP.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\RPCRT4.dll:RPCRT4.dll (75840000), size: 720896 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\RPCRT4.dll', fileVersion: 6.3.9600.17216
+C:\windows\SYSTEM32\combase.dll:combase.dll (770F0000), size: 1368064 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\combase.dll', fileVersion: 6.3.9600.17031
+C:\windows\SYSTEM32\msvcrt.dll:msvcrt.dll (75780000), size: 778240 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\msvcrt.dll', fileVersion: 7.0.9600.16384
+C:\windows\SYSTEM32\sechost.dll:sechost.dll (76F30000), size: 253952 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\sechost.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\NSI.dll:NSI.dll (76DA0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\NSI.dll', fileVersion: 6.3.9600.16384
+C:\windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_a9efdb8b01377ea7\COMCTL32.dll:COMCTL32.dll (72150000), size: 1990656 (result: 0), SymType: '-exported-', PDB: 'C:\windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_a9efdb8b01377ea7\COMCTL32.dll', fileVersion: 6.10.9600.17031
+C:\windows\SYSTEM32\MSASN1.dll:MSASN1.dll (75590000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\MSASN1.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\GLU32.dll:GLU32.dll (69670000), size: 147456 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\GLU32.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\DDRAW.dll:DDRAW.dll (69580000), size: 946176 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\DDRAW.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (738F0000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\WINMMBASE.dll', fileVersion: 6.3.9600.17080
+C:\Program Files (x86)\Unity\Editor\SSLEAY32.dll:SSLEAY32.dll (003B0000), size: 196608 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\SSLEAY32.dll', fileVersion: 0.9.8.5
+C:\Program Files (x86)\Unity\Editor\LIBEAY32.dll:LIBEAY32.dll (02610000), size: 1052672 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\LIBEAY32.dll', fileVersion: 0.9.8.5
+C:\Program Files (x86)\Unity\Editor\libintl3.dll:libintl3.dll (60E40000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\libintl3.dll', fileVersion: 0.14.4.1952
+C:\Program Files (x86)\Unity\Editor\krb5_32.dll:krb5_32.dll (1C000000), size: 602112 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\krb5_32.dll', fileVersion: 1.6.2.13
+C:\Program Files (x86)\Unity\Editor\comerr32.dll:comerr32.dll (003E0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\comerr32.dll', fileVersion: 1.6.2.13
+C:\Program Files (x86)\Unity\Editor\gssapi32.dll:gssapi32.dll (021E0000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\gssapi32.dll', fileVersion: 1.6.2.13
+C:\windows\SYSTEM32\WSOCK32.dll:WSOCK32.dll (737C0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\WSOCK32.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\Secur32.dll:Secur32.dll (72DA0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\Secur32.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\WLDAP32.dll:WLDAP32.dll (76E40000), size: 331776 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\WLDAP32.dll', fileVersion: 6.3.9600.17278
+C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.8428_none_d08a11e2442dc25d\MSVCR80.dll:MSVCR80.dll (694E0000), size: 634880 (result: 0), SymType: '-exported-', PDB: 'C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.8428_none_d08a11e2442dc25d\MSVCR80.dll', fileVersion: 8.0.50727.8428
+C:\windows\SYSTEM32\MSCTF.dll:MSCTF.dll (77560000), size: 1011712 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\MSCTF.dll', fileVersion: 6.3.9600.17031
+C:\windows\SYSTEM32\WINNSI.DLL:WINNSI.DLL (72E40000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\WINNSI.DLL', fileVersion: 6.3.9600.16384
+C:\Program Files (x86)\Unity\Editor\CFLite.dll:CFLite.dll (02720000), size: 15699968 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\CFLite.dll'
+C:\Program Files (x86)\Unity\Editor\libcurl.dll:libcurl.dll (02210000), size: 356352 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\libcurl.dll', fileVersion: 7.21.0.0
+C:\Program Files (x86)\Unity\Editor\cairo.dll:cairo.dll (03620000), size: 950272 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\cairo.dll'
+C:\Program Files (x86)\Unity\Editor\libxml2.dll:libxml2.dll (03710000), size: 1003520 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\libxml2.dll'
+C:\Program Files (x86)\Unity\Editor\pthreadVC2.dll:pthreadVC2.dll (02280000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\pthreadVC2.dll', fileVersion: 2.8.0.0
+C:\windows\SYSTEM32\SspiCli.dll:SspiCli.dll (751A0000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\SspiCli.dll', fileVersion: 6.3.9600.16408
+C:\windows\SYSTEM32\DCIMAN32.dll:DCIMAN32.dll (694D0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\DCIMAN32.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (76EF0000), size: 237568 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\cfgmgr32.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\DEVOBJ.dll:DEVOBJ.dll (738D0000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\DEVOBJ.dll', fileVersion: 6.3.9600.16384
+C:\Program Files (x86)\Unity\Editor\MSVCR71.dll:MSVCR71.dll (7C340000), size: 352256 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\MSVCR71.dll', fileVersion: 7.10.3052.4
+C:\Program Files (x86)\Unity\Editor\libiconv2.dll:libiconv2.dll (03810000), size: 917504 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\libiconv2.dll', fileVersion: 1.9.2.1519
+C:\Program Files (x86)\Unity\Editor\k5sprt32.dll:k5sprt32.dll (022A0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\k5sprt32.dll', fileVersion: 1.6.2.13
+C:\windows\SYSTEM32\MSIMG32.dll:MSIMG32.dll (72100000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\MSIMG32.dll', fileVersion: 6.3.9600.16384
+C:\Program Files (x86)\Unity\Editor\iconv.dll:iconv.dll (038F0000), size: 888832 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\iconv.dll', fileVersion: 1.9.0.0
+C:\Program Files (x86)\Unity\Editor\zlib1.dll:zlib1.dll (62E80000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\zlib1.dll', fileVersion: 1.2.5.0
+C:\windows\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (75190000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\CRYPTBASE.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\SHCORE.DLL:SHCORE.DLL (73850000), size: 483328 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\SHCORE.DLL', fileVersion: 6.3.9600.17238
+C:\windows\SYSTEM32\bcryptPrimitives.dll:bcryptPrimitives.dll (75130000), size: 335872 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\bcryptPrimitives.dll', fileVersion: 6.3.9600.17120
+C:\windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (72660000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\kernel.appcore.dll', fileVersion: 6.3.9600.16384
+C:\windows\system32\uxtheme.dll:uxtheme.dll (72690000), size: 897024 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\uxtheme.dll', fileVersion: 6.3.9600.17031
+C:\windows\SYSTEM32\profapi.dll:profapi.dll (73840000), size: 57344 (result: 0), SymType: '-nosymbols-', PDB: 'C:\windows\SYSTEM32\profapi.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\clbcatq.dll:clbcatq.dll (76D10000), size: 512000 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\clbcatq.dll', fileVersion: 2001.12.10530.16384
+C:\windows\system32\wbem\wbemprox.dll:wbemprox.dll (6A3A0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\wbem\wbemprox.dll', fileVersion: 6.3.9600.17114
+C:\windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (6A330000), size: 397312 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\wbemcomn.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (72510000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\CRYPTSP.dll', fileVersion: 6.3.9600.16384
+C:\windows\system32\rsaenh.dll:rsaenh.dll (724E0000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\rsaenh.dll', fileVersion: 6.3.9600.17200
+C:\windows\SYSTEM32\bcrypt.dll:bcrypt.dll (724C0000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\bcrypt.dll', fileVersion: 6.3.9600.17031
+C:\windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (6A320000), size: 65536 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\wbem\wbemsvc.dll', fileVersion: 6.3.9600.17114
+C:\windows\system32\wbem\fastprox.dll:fastprox.dll (6A270000), size: 700416 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\wbem\fastprox.dll', fileVersion: 6.3.9600.16384
+C:\Program Files (x86)\Unity\Editor\Data\Mono\EmbedRuntime\mono.dll:mono.dll (09740000), size: 2289664 (result: 0), SymType: 'PDB', PDB: 'C:\Program Files (x86)\Unity\Editor\Data\Mono\EmbedRuntime\mono.dll'
+C:\windows\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (73740000), size: 282624 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\MSWSOCK.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (72940000), size: 77824 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\dhcpcsvc.DLL', fileVersion: 6.3.9600.17111
+C:\windows\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (72920000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\dhcpcsvc6.DLL', fileVersion: 6.3.9600.17111
+C:\Program Files (x86)\Bonjour\mdnsNSP.dll:mdnsNSP.dll (728D0000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Bonjour\mdnsNSP.dll', fileVersion: 3.0.0.10
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (728C0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\rasadhlp.dll', fileVersion: 6.3.9600.16384
+C:\windows\System32\fwpuclnt.dll:fwpuclnt.dll (6DE30000), size: 278528 (result: 0), SymType: '-exported-', PDB: 'C:\windows\System32\fwpuclnt.dll', fileVersion: 6.3.9600.17042
+C:\Program Files (x86)\Unity\Editor\Data\Tools\D3DCompiler_47.dll:D3DCompiler_47.dll (69170000), size: 3489792 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Unity\Editor\Data\Tools\D3DCompiler_47.dll', fileVersion: 6.3.9431.0
+C:\windows\SYSTEM32\MMDevAPI.DLL:MMDevAPI.DLL (6B3F0000), size: 303104 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\MMDevAPI.DLL', fileVersion: 6.3.9600.17031
+C:\windows\SYSTEM32\wdmaud.drv:wdmaud.drv (69130000), size: 212992 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\wdmaud.drv', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\ksuser.dll:ksuser.dll (69120000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\ksuser.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\AVRT.dll:AVRT.dll (69A00000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\AVRT.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (6B390000), size: 393216 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\AUDIOSES.DLL', fileVersion: 6.3.9600.17393
+C:\windows\SYSTEM32\powrprof.dll:powrprof.dll (72DB0000), size: 253952 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\powrprof.dll', fileVersion: 6.3.9600.17031
+C:\windows\SYSTEM32\msacm32.drv:msacm32.drv (69110000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\msacm32.drv', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\midimap.dll:midimap.dll (69100000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\midimap.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\dsound.dll:dsound.dll (69080000), size: 495616 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\dsound.dll', fileVersion: 6.3.9600.16384
+C:\windows\SYSTEM32\d3d9.dll:d3d9.dll (68EC0000), size: 1802240 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\d3d9.dll', fileVersion: 6.3.9600.17095
+C:\windows\SYSTEM32\dwmapi.dll:dwmapi.dll (72670000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\dwmapi.dll', fileVersion: 6.3.9600.17238
+C:\windows\SYSTEM32\aticfx32.dll:aticfx32.dll (6B050000), size: 1122304 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\aticfx32.dll', fileVersion: 8.17.10.1315
+C:\windows\SYSTEM32\atiu9pag.dll:atiu9pag.dll (68EA0000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\atiu9pag.dll', fileVersion: 8.14.1.6398
+C:\windows\SYSTEM32\atiumdag.dll:atiumdag.dll (63BB0000), size: 7008256 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\atiumdag.dll', fileVersion: 9.14.10.1061
+C:\windows\SYSTEM32\atiumdva.dll:atiumdva.dll (634C0000), size: 7245824 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\atiumdva.dll', fileVersion: 8.14.10.470
+C:\windows\SYSTEM32\ntmarta.dll:ntmarta.dll (71F00000), size: 151552 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\ntmarta.dll', fileVersion: 6.3.9600.16384
+C:\windows\system32\napinsp.dll:napinsp.dll (6CCC0000), size: 65536 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\napinsp.dll', fileVersion: 6.3.9600.16384
+C:\windows\system32\pnrpnsp.dll:pnrpnsp.dll (6B450000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\pnrpnsp.dll', fileVersion: 6.3.9600.16384
+C:\windows\system32\NLAapi.dll:NLAapi.dll (72350000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\NLAapi.dll', fileVersion: 6.3.9600.16384
+C:\windows\System32\winrnr.dll:winrnr.dll (6B440000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\windows\System32\winrnr.dll', fileVersion: 6.3.9600.16384
+C:\Program Files (x86)\Google\Google Japanese Input\GoogleIMEJaTIP32.dll:GoogleIMEJaTIP32.dll (6CE10000), size: 1892352 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Google\Google Japanese Input\GoogleIMEJaTIP32.dll', fileVersion: 1.13.1641.0
+C:\windows\SYSTEM32\dbghelp.dll:dbghelp.dll (72AF0000), size: 1343488 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\dbghelp.dll', fileVersion: 6.3.9600.16520
+C:\windows\SYSTEM32\xinput1_3.dll:xinput1_3.dll (0BD10000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\xinput1_3.dll', fileVersion: 9.18.944.0
+C:\windows\SYSTEM32\SETUPAPI.dll:SETUPAPI.dll (76B60000), size: 1757184 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\SETUPAPI.dll', fileVersion: 6.3.9600.17031
+C:\windows\SYSTEM32\WINTRUST.dll:WINTRUST.dll (77680000), size: 229376 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\WINTRUST.dll', fileVersion: 6.3.9600.17085
+C:\Windows\SYSTEM32\actxprxy.dll:actxprxy.dll (6A3B0000), size: 1060864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\actxprxy.dll', fileVersion: 6.3.9600.17416
+C:\windows\system32\propsys.dll:propsys.dll (72530000), size: 1200128 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\propsys.dll', fileVersion: 7.0.9600.17278
+C:\windows\system32\mssprxy.dll:mssprxy.dll (68E00000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\mssprxy.dll', fileVersion: 7.0.9600.17031
+
+========== OUTPUTING STACK TRACE ==================
+
+(0x0041C2A0) c:\program files (x86)\microsoft visual studio 10.0\vc\include\xstring (594 + 0x24): std::basic_string<char,std::char_traits<char>,stl_allocator<char,55,4> >::basic_string<char,std::char_traits<char>,stl_allocator<char,55,4> > + 0x80
+(0x006C95F4) c:\buildagent\work\d63dfc6385190b60\runtime\mono\monoscript.cpp (364 + 0x14): BuildScriptClassId + 0x164
+(0x006CEDE8) c:\buildagent\work\d63dfc6385190b60\runtime\mono\monoscriptcache.cpp (588 + 0xd): FindOrCreateMonoScriptCache + 0x58
+(0x006C420A) c:\buildagent\work\d63dfc6385190b60\runtime\mono\monobehaviour.cpp (1615 + 0xa): MonoBehaviour::SetupScriptingCache + 0x16a
+(0x006C54B3) c:\buildagent\work\d63dfc6385190b60\runtime\mono\monobehaviour.cpp (1633 + 0x10): MonoBehaviour::RebuildMonoInstance + 0x43
+(0x00845B19) c:\buildagent\work\d63dfc6385190b60\runtime\mono\monomanager.cpp (1390 + 0x0): RebuildAllScriptCaches + 0xa9
+(0x00845C2C) c:\buildagent\work\d63dfc6385190b60\runtime\mono\monomanager.cpp (1416 + 0x7): MonoManager::EndReloadAssembly + 0x5c
+(0x00846131) c:\buildagent\work\d63dfc6385190b60\runtime\mono\monomanager.cpp (1156 + 0x19): MonoManager::ReloadAssembly + 0x81
+(0x00D1CB0B) c:\buildagent\work\d63dfc6385190b60\editor\src\assetpipeline\monocompilationpipeline.cpp (1016 + 0x26): ReloadAllUsedAssemblies + 0x6b
+(0x00FE7EA6) c:\buildagent\work\d63dfc6385190b60\editor\src\application.cpp (2420 + 0x0): Application::SetIsPlaying + 0x276
+(0x00FEDAB6) c:\buildagent\work\d63dfc6385190b60\editor\src\application.cpp (1351 + 0x0): Application::TickTimer + 0x756
+(0x0108C1F2) c:\buildagent\work\d63dfc6385190b60\editor\platform\windows\wineditormain.cpp (338 + 0x0): MainMessageLoop + 0x1c2
+(0x0108D13E) c:\buildagent\work\d63dfc6385190b60\editor\platform\windows\wineditormain.cpp (852 + 0x0): WinMain + 0xe3e
+(0x011A9FD4) f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c (275 + 0x1c): __tmainCRTStartup + 0x11a
+(0x751E919F) (KERNEL32): (filename not available): BaseThreadInitThunk + 0xe
+(0x777E0BBB) (ntdll): (filename not available): RtlInitializeExceptionChain + 0x84
+(0x777E0B91) (ntdll): (filename not available): RtlInitializeExceptionChain + 0x5a
+
+========== END OF STACKTRACE ===========
+
